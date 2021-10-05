@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "id": "7c8647d0-119f-11ec-8d15-91000df5f5ee",
+  "version": "1.0.0",
+  "packageName": "learnmsteamsssotab",
+  "developer": {
+    "name": "C0nt0s0",
+    "websiteUrl": "https://sridev.ngrok.io",
+    "privacyUrl": "https://sridev.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://sridev.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "SSO Teams Tab",
+    "full": "SSO Teams Tab"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://sridev.ngrok.io/ssoTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "sridev.ngrok.io",
+    "azfun.ngrok.io"
+  ],
+  "showLoadingIndicator": false,
+  "webApplicationInfo": {
+    "id": "c613e0d1-161d-4ea0-9db4-0f11eeabc2fd",
+    "resource": "api://sridev.ngrok.io/c613e0d1-161d-4ea0-9db4-0f11eeabc2fd"
+  }
+}
